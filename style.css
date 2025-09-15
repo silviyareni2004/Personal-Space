@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.head-logo h1{
+    background: linear-gradient(90deg,rgba(49, 182, 235, 1) 0%, rgba(87, 199, 133, 1) 49%, rgba(237, 221, 83, 1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+.home{
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+    text-align: center;
+}
+.home h5{
+    font-size: 1.5em;
+}
+.home h1{
+    font-size: 4em;
+    width: 50%;
+}
+.home p{
+    font-size: 1.2em;
+    width: 40%;
+}
+.home button{
+    padding: 20px 40px;
+    border: solid #fff 1px;
+    outline: none;
+    background: transparent;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 1.1em;
+}
+.about{
+    padding: 20px;
+}
+.about .head-logo h1{
+    text-align: center;
+    padding: 10px;
+}
+.about figure{
+    display: flex;
+    gap: 40px;
+    line-height: 30px;
+}
+.about figure .img-container{
+    width: 50%;
+    height: 50vh;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 20px 50px rgba(0,0,0,.2);
+}
+.about figure figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about figcaption h1{
+    width: 90%;
+    font-size: 2.5em;
+}
+.about figcaption button{
+    width: 20%;
+    padding: 5px 5px;
+    border: solid #b5b5b5 1px;
+    background: #ffff;
+    border-radius: 20px;
+    color: blue;
+    font-weight: 60;
+}
+.feature h1 {
+    text-align: center;
+    padding: 10px;
+}
+.feature div{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.feature div figure {
+    margin: 30px;
+    width: 27vw;
+    height: 53vh;
+    box-shadow: 0 0 10px 10px #00000060;
+    padding: 10px;
+    border-radius: 20px;
+}
+.feature div figure img{
+    width: 100%;
+    height: 200px;
+    border-radius: 32px;
+}
+
+.feature div figcaption{
+    line-height: 30px;
+}
+.feature div figcaption button {
+    padding: 2%;
+    border: solid #b5b5b5 1px;
+    background: #fff;
+    border-radius: 20px;
+    font-weight: 40px;
+}
+.contact fieldset{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background:linear-gradient(90deg,rgba(103, 16, 161, 1) 23%, rgba(103, 13, 163, 1) 33%, rgba(117, 9, 122, 1) 51%, rgba(139, 17, 131, 1) 56%, rgba(210, 24, 67, 1) 100%, rgba(253, 29, 29, 1) 100%, rgba(252, 176, 69, 1) 100%);
+    text-align: center;
+}
+.contact fieldset h1{
+    margin-top: 30px;
+}
+.contact fieldset p{
+       margin-top: 30px;
+       width: 50%;
+       margin-left: 25%;
+}
+.contact table p{
+    margin-right: 42vh;
+}
+.contact table input{
+    margin-right: 3vh;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1ps solid white;
+    background: transparent;
+}
+.contact .two p{
+    position: relative;
+    right: 42vh;
+}
+.contact .two input{
+    position: relative;
+    right: 42vh;
+}
+.contact ::placeholder{
+    color: #fff;
+}
+.contact .four textarea{
+    margin-left: 50vh;
+    border-radius: 20px;
+    border: 1ps solid #fff;
+    background: transparent;
+    resize: vertical;
+    width: 72%;
+}
+.contact button{
+    width: 72%;
+    padding: 10px;
+    border-radius: 20px;
+    background: blue;
+    border: 1px solid #fff;
+    margin-left: 50vh;
+    margin-top: 30px;
+    color: #fff;
+}
+
+
+
+
+
